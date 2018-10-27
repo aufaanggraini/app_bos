@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/abeezee_italic"
+        android:gravity="center"
+        android:text="Buat Akun"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/txtRegNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#F8F8FF"
+        android:textColor="#F8F8FF"
+        android:hint="Nama"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/txtRegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#F8F8FF"
+        android:textColor="#F8F8FF"
+        android:hint="Email"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/txtRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Password"
+        android:textColorHint="#F8F8FF"
+        android:textColor="#F8F8FF"
+        android:inputType="textPassword"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:background="#3300FF"
+        android:text="Register"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvSudahPunyaAkun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sudah Buat Akun? Login"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+</LinearLayout>
+

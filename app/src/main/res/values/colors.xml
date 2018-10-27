@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#0035DE</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorFinished">#007128</color>
+    <color name="colorFailed">#940000</color>
+    <color name="colorUNFinished">#0e0e0e</color>
+
+    <color name="hitem">#000</color>
+</resources>

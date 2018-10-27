@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/maps"
+            android:title="Maps" />
+    </group>
+
+    <item android:title="Sales Property">
+        <menu>
+            <item
+                android:id="@+id/nav_sales"
+                android:icon="@drawable/ic_add_sales"
+                android:title="Tambah Sales" />
+
+            <item
+                android:id="@+id/list_kerja"
+                android:icon="@drawable/ic_action_name"
+                android:title="Tambah Pekerjaan" />
+
+        </menu>
+    </item>
+
+</menu>

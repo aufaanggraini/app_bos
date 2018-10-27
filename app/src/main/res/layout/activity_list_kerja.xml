@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="casual"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:text="Tambah Pekerjaan"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:text="Nama Pekerjaan"
+        android:textColor="#ffff"
+        android:fontFamily="@font/abeezee_italic"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtNamaPekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textColor="#FFF"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/durasi"
+        android:fontFamily="@font/abeezee_italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffff"
+        android:text="Durasi Pekerjaan"
+        android:textSize="20dp" />
+
+    <Button
+        android:text="Pilih Tanggal"
+        android:id="@+id/txtDurasiKerja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee_italic"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffff"
+        android:text="lokasi"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/txtLokasiPekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textColor="#FFF"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btnTambahKerja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"/>
+
+
+        <Button
+            android:id="@+id/btnCancelKerja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+
+</LinearLayout>

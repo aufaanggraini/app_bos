@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/blue">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monitoring Sales"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textColor="#ffffff"/>'
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColorHint="#F8F8FF"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+       />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColorHint="#F8F8FF"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0035DE"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tvBelumPunyaAkun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belum Punya Akun? klik Disini"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="15dp"/>
+
+
+</LinearLayout>

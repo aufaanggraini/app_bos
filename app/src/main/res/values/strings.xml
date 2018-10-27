@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App Monitoring</string>
+    <string name="title_activity_halaman_utama">Halaman utama</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_maps_">Maps Activity</string>
+</resources>
